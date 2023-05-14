@@ -1,0 +1,26 @@
+.content-container {
+    display: grid;
+    width: 1800px;
+    grid-template-columns: 900px 900px;
+}
+
+.cali {
+    font-size: 50px;
+    width: 800px;
+    display: grid;
+    text-align: center;
+    border: solid;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+.content {
+    font-size: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    width: 600px;
+}

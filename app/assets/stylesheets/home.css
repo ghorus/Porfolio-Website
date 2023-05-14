@@ -1,0 +1,29 @@
+.intro {
+    font-size: 35px;
+    width: 800px;
+    height: 600px;
+    display: grid;
+    align-items: center;
+}
+
+.intro-container {
+    display: grid;
+    grid-template-columns: 500px 200px 800px;
+    height: 100vh;
+}
+
+.logos {
+    width: 200px;
+    display: grid;
+    height: 600px;
+    grid-template-rows: 150px 150px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.me {
+    height: 400px;
+    display: grid;
+    justify-content: center;
+}

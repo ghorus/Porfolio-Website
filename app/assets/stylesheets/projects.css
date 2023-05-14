@@ -1,0 +1,6 @@
+.project:hover {
+    scale: 1.1;
+}
+.project {
+    transition: 0.5s ease-in-out;
+}

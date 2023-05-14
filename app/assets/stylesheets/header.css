@@ -1,9 +1,12 @@
 .nav-op {
-    font-size:30px;
+    font-size:25px;
     text-decoration: none;
     color: black;
+    transition: 0.3s ease-in-out;
 }
-
+.nav-op:hover {
+    opacity: 0.3;
+}
 .nav {
     display: grid;
     grid-template-columns: 250px 250px 250px 250px 250px;
@@ -15,7 +18,7 @@
 }
 .nav-container {
     display: grid;
-    width: 100vw;
+    width: 1880px;
     height: 100px;
     justify-content: center;
 }

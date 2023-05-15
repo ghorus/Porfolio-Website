@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'pages/about'
-  root 'pages#home'
+  root 'pages#index'
   get 'pages/projects'
   get 'pages/education'
   get 'pages/skills'
